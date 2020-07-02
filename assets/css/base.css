@@ -1,0 +1,46 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #6e6e6e;
+}
+
+*{
+    box-sizing: inherit;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button_learn-more{
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid #10592e;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.button_learn-more:focus{
+    outline: none;
+}
+.main__title{
+    font-size: 4.3em;
+    font-weight: 700;
+    color: var(--black-color);
+}
+.main__desc{
+    font-size: 1.4em;
+    color: var(--text-color);
+}
+.main__button{
+    border: 2px solid #10592e;
+    padding: 13px 25px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 1.4em;
+}
+.main__button:focus{
+    outline: none;
+}
