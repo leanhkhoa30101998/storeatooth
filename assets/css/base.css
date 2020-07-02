@@ -26,12 +26,12 @@ html{
     outline: none;
 }
 .main__title{
-    font-size: 4.3em;
+    font-size: 3.5vw;
     font-weight: 700;
     color: var(--black-color);
 }
 .main__desc{
-    font-size: 1.4em;
+    font-size: 0.9vw;
     color: var(--text-color);
 }
 .main__button{
@@ -44,3 +44,5 @@ html{
 .main__button:focus{
     outline: none;
 }
+
+

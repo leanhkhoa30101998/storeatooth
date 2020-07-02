@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STORE-A-TOOTH</title>
+    <link rel="stylesheet" type="text/css" href="assets/slick-1.8.1/slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/slick-1.8.1/slick-1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/base.css">
@@ -15,7 +17,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container">
+    <div class="container-flus">
         <header class="header">
             <ul class="header__navbar-top">
                 <li class="header__navbar-top-item header__navbar-top-item--center">
@@ -24,31 +26,53 @@
                 877-867-5753
                 </li>
                 <li class="header__navbar-top-item header__navbar-top-item--right">
-                    <i class="fa fa-times" aria-hidden="true"></i>
+                    <p><i class="fa fa-times" aria-hidden="true"></i></p>
                 </li>
             </ul>
-
-            <div class="row header__navbar-bottom">
-                <div class="col-md-3 header__navbar-logo">
-                    <img src="assets/image/logo.png" alt="">
-                </div>
-                <div class="col-md-7 header__navbar-menu">
-                    <ul class="header__navbar-menu-list">
-                        <li class="header__navbar-menu-list--item">
-                            <a href="">Dental Stem Cells 101</a>
-                        </li>
-                        <li class="header__navbar-menu-list--item"><a href="">Our Process</a></li>
-                        <li class="header__navbar-menu-list--item"><a href="">Pricing</a></li>
-                        <li class="header__navbar-menu-list--item"><a href="">Stories</a></li>
-                        <li class="header__navbar-menu-list--item">
-                            <a href=""><i class="fa fa-search" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-2 header__navbar-button">
-                    <button class="header__navbar-button--enroll">
-                        ENROLL NOW
-                    </button>
+            <div class="container-flus">
+                <div class="row header__navbar-bottom">
+                    <div class="col-md-3 header__navbar-logo">
+                        <img src="assets/image/logo.png" alt="">
+                    </div>
+                    <div class="col-md-6 header__navbar-menu">
+                        <ul class="header__navbar-menu-list">
+                            <li class="header__navbar-menu-list--item">
+                                <a href="#">Dental Stem Cells 101</a>
+                                <ul class="header__navbar-menu--drop">
+                                    <li class="header__navbar-menu--item"><a href="#">Why Bank Stem Cells</a></li>
+                                    <li class="header__navbar-menu--item"><a href="#">Why Teeth</a></li>
+                                    <li class="header__navbar-menu--item"><a href="#">Dentist Recommended</a></li>
+                                    <li class="header__navbar-menu--item">
+                                        <a href="#">Emerging Treatments</a>
+                                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                        <ul class="cap2">
+                                            <li class="cap2--item"><a href="">Type 1 Diabetes</a></li>
+                                            <li class="cap2--item"><a href="">Alzheimer’s Disease</a></li>
+                                            <li class="cap2--item"><a href="">Autism</a></li>
+                                            <li class="cap2--item"><a href="">Parkinson’s Disease </a></li>
+                                            <li class="cap2--item"><a href="">Muscular Dystrophy </a></li>
+                                            <li class="cap2--item"><a href="">Multiple Sclerosis </a></li>
+                                            <li class="cap2--item"><a href="">Arthritis </a></li>
+                                            <li class="cap2--item"><a href="">Bone Regeneration</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="header__navbar-menu--item"><a href="#">Recent News</a></li>
+                                    <li class="header__navbar-menu--item"><a href="#">FAQ’s</a></li>
+                                </ul>
+                            </li>
+                            <li class="header__navbar-menu-list--item"><a href="">Our Process</a></li>
+                            <li class="header__navbar-menu-list--item"><a href="">Pricing</a></li>
+                            <li class="header__navbar-menu-list--item"><a href="">Stories</a></li>
+                            <li class="header__navbar-menu-list--item">
+                               <i class="fa fa-search" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 header__navbar-button">
+                        <button class="header__navbar-button--enroll">
+                            ENROLL NOW
+                        </button>
+                    </div>
                 </div>
             </div>
         </header>
@@ -106,13 +130,16 @@
                 </p>
                 <img src="assets/image/line.png">
             </div>
-            <div class="content2__qc">
-                <img src="assets/image/layer1.png" alt="">
-                <img src="assets/image/layer2.png" alt="">
-                <img src="assets/image/layer3.png" alt="">
-                <img src="assets/image/layer4.png" alt="">
-                <img src="assets/image/layer5.png" alt="">
-            </div>
+            
+            <div class="autoplay">
+                <img src="assets/image/layer1.png" alt=""/>
+                <img src="assets/image/layer2.png" alt=""/>
+                <img src="assets/image/layer3.png" alt=""/>
+                <img src="assets/image/layer4.png" alt=""/>
+                <img src="assets/image/layer5.png" alt=""/>
+                <img src="assets/image/layer1.png" alt=""/>
+                <img src="assets/image/layer2.png" alt=""/>
+              </div>
         </div>
         <div class="content3">
             <div class="content3__main">
@@ -361,7 +388,7 @@
         </div>
         <footer class="footer"> 
             <div class="row footet__list">
-                <div class="col-md-3 footet__list-first">
+                <div class="col-sm-3 footet__list-first">
                     <h4><b>Store A Tooth</b></h4>
                     <p>About us</p>
                     <p>Contact us</p>
@@ -374,7 +401,7 @@
                     <h4><b>Email:</b></h4>
                     <p>info@store-a-tooth.com</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-sm-3 col-ms-3">
                     <br>
                     <br>
                     <p>Our Accreditations</p>
@@ -384,7 +411,7 @@
                     <p>Privacy Policy</p>
                     <p>Sitemap</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-sm-3 col-ms-3">
                     <h4><b>Partners With Us</b></h4>
                     <p>Dental Professionals</p>
                     <p>Advocate Program</p>
@@ -393,7 +420,7 @@
                     <p>Press</p>
 
                 </div>
-                <div class="col-md-3">
+                <div class="col-sm-3 col-ms-3">
                     <h4><b>Follow Us</b></h4>
                     <p><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</p>
                     <p><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</p>
@@ -410,6 +437,22 @@
                 </div>
             </div>
         </footer>
-    </div>
+    </div>  
+    <script type="text/javascript" src="assets/js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/slick-1.8.1/slick-1.8.1/slick/slick.min.js"></script>
+    
+    <script type="text/javascript">
+        $('.autoplay').slick({
+            slidesToShow: 5,
+            slidesToScroll: 2,
+            autoplay: true,
+            autoplaySpeed: 1500,
+        });
+        $('li.header__navbar-top-item.header__navbar-top-item--right>p').click(function(){
+            $("ul.header__navbar-top").addClass( "d-none")
+        });
+    </script>
+    
 </body>
 </html>
