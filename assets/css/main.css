@@ -30,6 +30,7 @@
 }
 .header__navbar-bottom{
     margin-right: 0;
+    display: flex;
 }
 .header__navbar-logo img{
     margin-left: 3.3vw;
@@ -81,6 +82,7 @@
     color: var(--white-color);
     font-size: 1.3em;
     font-weight: 500;
+    margin-right: 3vw;
 }
 .header__navbar-button--enroll:focus{
     outline: none;
